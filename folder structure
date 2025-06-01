@@ -1,0 +1,18 @@
+ai-agent-classifier/
+├── README.md
+├── requirements.txt
+├── classifier1.py
+├── email_agent.py
+├── json_agent.py
+├── shared_memory.py
+├── sample_inputs/
+│   ├── invoice.pdf
+│   ├── rfq.json
+│   └── sample_email.eml
+├── sample_outputs/
+│   ├── output_log.txt
+├── models/
+│   ├── intent_model.pt
+│   ├── format_model.pt
+│   └── label_classes.pkl
+
