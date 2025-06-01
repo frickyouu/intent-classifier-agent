@@ -54,21 +54,28 @@ project/
 └── persistent.db
 ```
 
-Usage
-Prepare your models and label files
+## Usage
+1) Prepare your models and label files
 
 Place your format classification model and label mapping in ./models/format_model/.
 
 Place your intent classification model and label_classes.pkl in ./email_intent_bert/.
 
-Run the script
+2) Run the script
 
 bash
 ```python classifier1.py ```
-Follow the prompts
+3) Follow the prompts
 
 When prompted, enter the path to a PDF, JSON, or Email (.eml) file.
 
 The script will classify the file format and intent, process the file, and display the results.
 
 You can process multiple files in sequence.
+
+## Customization
+Adding new intents: Update your intent model and label_classes.pkl.
+
+Extending agents: Modify or extend json_agent.py and email_agent.py for custom logic.
+
+Persistent logging: All processed results are logged in persistent.db via SharedMemory.
