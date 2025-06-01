@@ -13,7 +13,7 @@ Extracts and logs text content from the file.
 Routes JSON and Email files to specialized agents for further processing.
 
 Maintains persistent logs via a shared memory database.
-#### dependencies###
+#### dependencies ###
 ```pip install torch transformers PyPDF2 joblib```
 
 
