@@ -1,5 +1,5 @@
 # intent-classifier-agent #
-## ClassifierAgent##
+## ClassifierAgent ##
 This README provides setup and usage instructions for classifier1.py, a Python script that automatically classifies the format and intent of input files (PDF, Email, or JSON), and routes them to specialized agents for further processing.
 
 ## Features ##
