@@ -65,6 +65,7 @@ Place your intent classification model and label_classes.pkl in ./email_intent_b
 
 bash
 ```python classifier1.py ```
+
 3) Follow the prompts
 
 When prompted, enter the path to a PDF, JSON, or Email (.eml) file.
